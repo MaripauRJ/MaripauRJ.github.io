@@ -1,0 +1,116 @@
+body
+{
+    background-color: rgba(248, 250, 229, 0.938);
+    color: rgb(20, 3, 173);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header
+{
+    background-color:#f0ba0b; color: rgb(12, 22, 167);
+    text-align: center;
+    width: 100%;  height: 100px; margin: 0px;
+    line-height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 3px dashed rgb(20, 3, 173);
+}
+
+nav ul li
+{
+    float: left;
+    list-style: none;
+    margin: 10px; line-height: 30px;
+    font-family:"Brush Script MT" ;
+    font-size: xx-large;
+    color: antiquewhite;
+}
+
+*{
+    margin: 0px; padding: 0px;}
+    .limpiar{ clear: both;}
+
+
+.Articulo
+{
+ color: rgb(12, 22, 167); margin-top: 15px; margin-bottom: 15px;
+}
+
+#seccion
+{
+    float: left;  width: 20%;
+    background-color: rgb(142, 217, 245);
+    min-height: 600px;
+}
+
+
+
+.vestido1{
+    position: relative;
+    animation-name: vestido1;
+    animation-duration:15s;
+    animation-iteration-count:3;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vestido1 {
+    0%{top:200px;  left:0px}
+    25%{top: 200px; left:1500px;}
+    50%{top:200px;  left:0px}
+    75%{top: 200px; left:1500px;}
+    100%{top:200px;  left:0px}
+
+} 
+
+.vestido3{
+    position: relative;
+    animation-name: vestido3;
+    animation-duration:15s;
+    animation-iteration-count:3;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vestido3 {
+    0%{top:200px;  left:1500px}
+    25%{top: 200px; left:0px;}
+    50%{top:200px;  left:1500px}
+    75%{top: 200px; left:0px;}
+    100%{top:200px;  left:1500px}
+
+}  
+
+p{
+    font-size: large;
+}
+
+table{
+    text-align: center;
+    border-color: rgb(20, 3, 173);
+    border-width: 3px;
+    border-style: dotted;
+    background-color:#f0ba0b ;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgba(248, 250, 229, 0.938);
+    height: 40px; 
+}
+
+tbody tr:nth-child(even){
+    background-color:rgba(248, 250, 229, 0.938) ;
+    height: 40px; 
+}
+
+nav ul li
+{
+    list-style: none;
+    margin: 10px; line-height: 30px;
+    font-family:"Brush Script MT" ;
+    font-size: xx-large;
+    color: antiquewhite;
+}
+
+
+ 
