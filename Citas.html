@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas</title>
+    <link rel="stylesheet" href="cssCitas.css">
+    <link rel="stylesheet" href="jsCitas.js">
+
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="shelf">
+            <div class="clock">
+                <div class="alarm_left"></div>
+                <div class="alarm_right"></div>
+                <div class="hour_hand"></div>
+                <div class="minutes_hand"></div>
+                <div class="seconds_hand"></div>
+                <div class="legs_left"></div>
+                <div class="legs_right"></div>
+            </div>
+            <div class="books">
+                 <div></div>
+                 <div></div>
+                 <div></div>
+            </div>
+        </div>
+    </div>
+      <br>
+       <h1>Ingresa tus datos para agendar tu cita</h1>
+       <form>
+        Ingresa tu nombre: <input placeholder="Escribe tu Nombre Completo" type="text"> </input><br><br>
+        Escribe tu número de teléfono: <input maxlength="10" type="text"></input>  <br><br>
+        Ingresa tu e-mail: <input placeholder="Ingresa tu correo electrónico" type="text"> </input><br><br>
+        <b>Elige la fecha para tu cita: <b><br>
+         <input type="date"> </input>
+        <br>
+ 
+         <h3>Motivo de tu cita:</h3>
+         <input type="radio">Presupuesto</input><br> 
+         <input type="radio">Cita para prueba</input><br>
+         <input type="radio">Cita en línea</input><br>
+                <button>Enviar</button>
+
+         <br><br>
+         <h3>En caso de presupuesto sube algun modelo referente al que estas interesado:</h3>
+         <input id="Archivo" type="file"></input><br>
+         <button>Subir Archivo</button><br><br>
+         
+
+        <h3>Ingresa tus comentarios o sugerencias</h3>
+
+          <textarea name="" id="" cols="30" rows="10">
+           
+          </textarea>
+          <br>
+          <button>Enviar</button>
+       
+        </form>
+
+        
+
+    
+</body>
+</html>
